@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import warnings
 warnings.filterwarnings("ignore")
-import plotly as py
-import plotly.graph_objs as go
+#import plotly as py
+#import plotly.graph_objs as go
 import os
 import datetime as dt
 import missingno as msno
