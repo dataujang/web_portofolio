@@ -1,17 +1,17 @@
 import streamlit as st
 
 
-saham =st.Page(
-    "menu/saham.py", title="stock", icon=":material/dashboard:"
+netflix_anlysis =st.Page(
+    "project_sample/netflix.py", title="netflix analysis", icon=":material/dashboard:"
 )
 price =st.Page(
-    "menu/price.py", title="price", icon=":material/dashboard:"
+    "project_sample/price.py", title="price", icon=":material/dashboard:"
 )
 
 
 pg=st.navigation(
     {
-        "menu" : [saham,price]
+        "Project Sample" : [netflix_anlysis,price]
     }
 )
 
