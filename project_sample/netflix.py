@@ -10,7 +10,7 @@ warnings.filterwarnings("ignore")
 #import plotly.graph_objs as go
 import os
 import datetime as dt
-import missingno as msno
+#import missingno as msno
 import streamlit as st
 
 st.set_page_config(layout="wide")
