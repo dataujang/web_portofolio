@@ -1,4 +1,5 @@
 import streamlit as st
+from sklearn.preprocessing import StandardScaler
 
 
 netflix_anlysis =st.Page(
