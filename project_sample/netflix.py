@@ -840,3 +840,8 @@ with col1:
     plt.tight_layout(pad=0)
 
     st.pyplot(fig)
+
+st.write(
+    "Analisa ini diambil dari kaggle ini hanya mengganti tampilan ke streamlit secara analisa semua sama denga yang di kaggle" \
+    " https://www.kaggle.com/code/joshuaswords/netflix-data-visualization/notebook"
+)
