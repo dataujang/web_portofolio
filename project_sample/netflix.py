@@ -1,16 +1,16 @@
 import pandas as pd
 import numpy as np
-#from sklearn.preprocessing import StandardScaler
-#from sklearn.cluster import KMeans, AffinityPropagation
+from sklearn.preprocessing import StandardScaler
+from sklearn.cluster import KMeans, AffinityPropagation
 import matplotlib.pyplot as plt
 import seaborn as sns
 import warnings
 warnings.filterwarnings("ignore")
-#import plotly as py
-#import plotly.graph_objs as go
+import plotly as py
+import plotly.graph_objs as go
 import os
 import datetime as dt
-#import missingno as msno
+import missingno as msno
 import streamlit as st
 
 st.set_page_config(layout="wide")

@@ -1,6 +1,9 @@
 streamlit
+scikit-learn ==1.6.1
 pandas
 numpy
-pillow
 matplotlib
 seaborn
+plotly
+missingno
+wordcloud
