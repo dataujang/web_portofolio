@@ -830,7 +830,7 @@ with col1:
 
     text = str(list(df['title'])).replace(',', '').replace('[', '').replace("'", '').replace(']', '').replace('.', '')
 
-    mask = np.array(Image.open(r'project_sample\icon\netflix-logo.png'))
+    mask = np.array(Image.open(r'project_sample/icon/netflix-logo.png'))
 
     wordcloud = WordCloud(background_color = 'white', width = 50,  height = 50,colormap=cmap, max_words = 150, mask = mask).generate(text)
 
